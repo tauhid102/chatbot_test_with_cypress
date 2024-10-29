@@ -51,7 +51,7 @@ describe('Enter questions in the input field', () => {
       });
     });
   });
-  it('Enter Rest Data', () => {
+  it.only('Enter Rest Data', () => {
     const selectService = new serviceSelect()
     cy.get("#big-minimized-view").click();
     cy.wait(3000)

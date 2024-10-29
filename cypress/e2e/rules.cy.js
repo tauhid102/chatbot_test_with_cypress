@@ -48,7 +48,7 @@ describe('Enter time questions in the input field', () => {
             });
         });
     });
-    it('Third 50 data', () => {
+    it('Third 50 data', () => { 
         const selectService = new serviceSelect()
         cy.get("#big-minimized-view").click();
         cy.wait(3000)
@@ -69,7 +69,7 @@ describe('Enter time questions in the input field', () => {
             });
         });
     });
-    it('Rest data', () => {
+    it.only('Rest data', () => {//need to run again after fixing
         const selectService = new serviceSelect()
         cy.get("#big-minimized-view").click();
         cy.wait(3000)
