@@ -1,4 +1,4 @@
 class serviceSelect{
-    service="এসিড বিক্রি লাইসেন্স সম্পর্কে বলুন?"
+    service="সিমেন্ট বিক্রি করতে কি লাগবে"
 }
 export default serviceSelect

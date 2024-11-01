@@ -71,7 +71,7 @@ describe('Enter time questions in the input field', () => {
         });
       });
     });
-    it.only('JSON file into the input field', () => {
+    it('JSON file into the input field', () => {
         const selectService = new serviceSelect()
       cy.get("#big-minimized-view").click();
       cy.wait(3000)

@@ -69,7 +69,7 @@ describe('Enter time questions in the input field', () => {
             });
         });
     });
-    it.only('Rest data', () => {//need to run again after fixing
+    it('Rest data', () => {//need to run again after fixing
         const selectService = new serviceSelect()
         cy.get("#big-minimized-view").click();
         cy.wait(3000)

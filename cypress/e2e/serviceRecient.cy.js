@@ -30,4 +30,3 @@ describe('Enter time questions in the input field', () => {
       });
     });
   });
-  
